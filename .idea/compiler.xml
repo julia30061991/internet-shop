@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="notifications" />
+        <module name="orders" />
+        <module name="payment" />
+        <module name="shipping" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
+      <module name="internet-shop" target="1.8" />
+      <module name="notifications" target="1.8" />
+      <module name="orders" target="1.8" />
+      <module name="payment" target="1.8" />
+      <module name="shipping" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
